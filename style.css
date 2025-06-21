@@ -1,6 +1,18 @@
 body {
-    background-color: #7f73ff;
+    background-image: url('img/festa-junina.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     color: white;
+}
+
+/* Mantém a cor principal do seu projeto */
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* sobreposição escura p/ contraste */
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .btn-primary {
