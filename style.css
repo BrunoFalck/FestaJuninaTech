@@ -1,0 +1,31 @@
+body {
+    background-color: #7f73ff;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #0b40e7;
+    border-color: #0b40e7;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #3fc95f;
+    border-color: #3fc95f;
+}
+
+h1, h2 {
+    color: #ff9936;
+}
+
+.container a:not(.btn) {
+    color: #ec1313;
+}
+
+.row {
+    align-items: center;
+}
+
+p {
+    color: #f0f0f0;
+}
