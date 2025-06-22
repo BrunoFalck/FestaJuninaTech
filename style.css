@@ -1,10 +1,14 @@
+/*
+Estilização básica feita pelo copilot. Ajuste do rodapé feito pelo chatGPT. 
+Mudança de cores, adição de text-shadow, imagens, fonte e indicação da página atual feitas por nós. 
+*/
+
 body {
-    background-image: url('img/festa-junina.png');
+    background-image: url('festa-junina.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    color: white;
 }
 
 /* Mantém a cor principal do seu projeto */
@@ -16,8 +20,8 @@ body {
 }
 
 .btn-primary {
-    background-color: #0b40e7;
-    border-color: #0b40e7;
+    background-color: #7f73ff;
+    border-color: #7f73ff;
     color: white;
 }
 
@@ -27,7 +31,8 @@ body {
 }
 
 h1, h2 {
-    color: #ff9936;
+    color: #ec1313;
+    text-shadow: 5px 5px black;
 }
 
 .container a:not(.btn) {
@@ -39,5 +44,27 @@ h1, h2 {
 }
 
 p {
-    color: #f0f0f0;
+    color: #7f73ff;
+}
+footer{
+    height: 90px;
+}
+.nav-highlight {
+  border: 2px solid #ff9936;
+  border-radius: 8px;
+  padding: 5px 12px;
+  color: #ff9936 !important;
+  background-color: #333533;
+}
+a{
+    color: #7f73ff;
+}
+label{
+    color: white;
+}
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-brand{
+    text-shadow: 4px 4px 4px black;
 }
